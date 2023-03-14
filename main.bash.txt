@@ -1,0 +1,5 @@
+sudo apt update
+sudo apt install wget libssl1.1 libunwind8
+sudo mkdir -p /opt/microsoft/powershell/7
+wget -O /tmp/powershell.tar.gz https://github.com/PowerShell/PowerShell/releases/download/v7.2.6/powershell-7.2.6-linux-arm32.tar.gz 
+wget -O /tmp/powershell.tar.gz https://github.com/PowerShell/PowerShell/releases/download/v7.2.6/powershell-7.2.6-linux-arm64.tar.gz 
